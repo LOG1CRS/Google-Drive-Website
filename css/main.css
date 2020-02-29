@@ -1,0 +1,18 @@
+.google-icon{
+    font-size: 33px;
+}
+
+.nav-item{
+    font-size: 17px;
+}
+
+.nav-item-btn{
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+@media only screen  and (min-width : 1224px) {
+    .brand-logo{
+        margin-left: 20px; 
+    }
+}

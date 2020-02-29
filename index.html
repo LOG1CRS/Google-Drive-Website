@@ -13,9 +13,38 @@
     <title>Google Drive: Cloud Storage</title>
 </head>
 <body>
-
-
+    <!-- Navigation Bar -->
+    <div class="navbar-fixed">
+        <nav class="white">
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo black-text"><strong class="google-icon"><span class="blue-text">G</span><span class="red-text">o</span><span class="yellow-text">o</span><span class="blue-text">g</span><span class="green-text">l</span><span class="red-text">e</span></strong> Drive</a>
+                <a href="#" class="sidenav-trigger" data-target="mobile-demo"><i class="material-icons black-text">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#meet" class="black-text nav-item"><strong>Meet Drive</strong></a></li>
+                    <li><a href="#using" class="black-text nav-item">Using Drive</a></li>
+                    <li><a href="#download" class="black-text nav-item">Download</a></li>
+                    <li><a href="#business" class="black-text nav-item">For Business</a></li>
+                    <li><a href="#help" class="black-text nav-item">Help</a></li>
+                    <li><a href="#!" class="nav-item-btn waves-effect waves-light blue darken-1 left">Go to Google Drive</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="#meet" class="black-text"><strong>Meet Drive</strong></a></li>
+        <li><a href="#using" class="black-text">Using Drive</a></li>
+        <li><a href="#download" class="black-text">Download</a></li>
+        <li><a href="#business" class="black-text">For Business</a></li>
+        <li><a href="#help" class="black-text">Help</a></li>
+        <li><a href="#!" class="waves-effect waves-light btn-large blue darken-1">Go to Google Drive</a></li>
+    </ul>
      <!-- Compiled and minified JavaScript -->
      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+     <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems);
+        });
+     </script>
 </body>
 </html>
