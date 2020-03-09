@@ -1,0 +1,15 @@
+/* ----- Navigation bar ----- */
+.nav-item{
+    font-size: 17px;
+}
+
+.brand-logo{
+    margin-left: 20px; 
+}
+
+.nav-item-btn{
+    font-size: 17px;
+    margin-left: 15px;
+}
+
+/* ----- Hero ----- */

@@ -1,0 +1,20 @@
+/* ----- Navigation bar ----- */
+.sidenav-img{
+    width: 95px !important;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.sidenav-mobile{
+    margin-bottom: 8px;
+}
+
+.sidenav-mobile-button{
+    margin-top: 15px;
+}
+
+.sidenav-mobile:hover{
+    background-color: rgba(202, 202, 202, 0.096);
+}
+
+/* ----- Hero ----- */
