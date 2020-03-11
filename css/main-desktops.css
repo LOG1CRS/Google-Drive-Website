@@ -41,3 +41,50 @@
 .card-content{
     font-size: 18px;
 }
+
+/* ----- Parallax----- */
+
+.parallax-container{
+    width: 100%;
+    height: 50vh;
+}
+
+/* ----- Store any file ----- */
+
+.store-any-file{
+    width: 100%;
+    height: 70vh;
+}
+
+.store-info{
+    text-align: left;
+}
+
+.store-title{
+    font-size: 50px;
+}
+
+.store-text{
+    font-size: 25px;
+}
+
+/* ----- Stuff anywhere ----- */
+
+.stuff-anywhare{
+    width: 100%;
+    height: 70vh;
+}
+
+/* ----- Share files ----- */
+
+.share-files{
+    width: 100%;
+    height: 70vh;
+}
+
+/* ----- Get started ----- */
+
+.get-started{
+    width: 100%;
+    height: 70vh;
+}

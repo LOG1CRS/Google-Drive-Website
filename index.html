@@ -19,14 +19,14 @@
     <div class="navbar-fixed">
         <nav class="white">
             <div class="nav-wrapper">
-                <a href="#!" class="brand-logo black-text"><strong class="google-icon"><span class="blue-text">G</span><span class="red-text">o</span><span class="yellow-text">o</span><span class="blue-text">g</span><span class="green-text">l</span><span class="red-text">e</span></strong> Drive</a>
-                <a href="#" class="sidenav-trigger" data-target="mobile-demo"><i class="material-icons black-text">menu</i></a>
+                <a href="#hero" class="brand-logo black-text"><span class="blue-text">G</span><span class="red-text">o</span><span class="yellow-text">o</span><span class="blue-text">g</span><span class="green-text">l</span><span class="red-text">e</span> Drive</a>
+                <a href="#hero" class="sidenav-trigger" data-target="mobile-demo"><i class="material-icons black-text">menu</i></a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="#meet" class="black-text nav-item"><strong>Meet Drive</strong></a></li>
-                    <li><a href="#using" class="black-text nav-item">Using Drive</a></li>
-                    <li><a href="#download" class="black-text nav-item">Download</a></li>
-                    <li><a href="#business" class="black-text nav-item">For Business</a></li>
-                    <li><a href="#help" class="black-text nav-item">Help</a></li>
+                    <li><a href="#hero" class="black-text nav-item">Meet Drive</a></li>
+                    <li><a href="#store" class="black-text nav-item">Using Drive</a></li>
+                    <li><a href="#anywhere" class="black-text nav-item">Download</a></li>
+                    <li><a href="#share" class="black-text nav-item">For Business</a></li>
+                    <li><a href="#started" class="black-text nav-item">Help</a></li>
                     <li><a href="#!" class="nav-item-btn waves-effect waves-light blue darken-1 left">Go to Google Drive</a></li>
                 </ul>
             </div>
@@ -34,17 +34,17 @@
     </div>
     <ul class="sidenav" id="mobile-demo">
         <div class="center">
-            <img src="rsc/google-icon.png" alt="google-logo" class="responsive-img sidenav-img">
+            <img href="#hero" src="rsc/google-icon.png" alt="google-logo" class="responsive-img sidenav-img">
         </div>
-        <li class="sidenav-mobile"><a href="#meet" class="nav-item-mobile black-text center"><strong>Meet Drive</strong></a></li>
-        <li class="sidenav-mobile"><a href="#using" class="nav-item-mobile black-text center">Using Drive</a></li>
-        <li class="sidenav-mobile"><a href="#download" class="nav-item-mobile black-text center">Download</a></li>
-        <li class="sidenav-mobile"><a href="#business" class="nav-item-mobile black-text center">For Business</a></li>
-        <li class="sidenav-mobile"><a href="#help" class="nav-item-mobile black-text center">Help</a></li>
+        <li class="sidenav-mobile"><a href="#hero" class="nav-item-mobile black-text center"><strong>Meet Drive</strong></a></li>
+        <li class="sidenav-mobile"><a href="#store" class="nav-item-mobile black-text center">Using Drive</a></li>
+        <li class="sidenav-mobile"><a href="#anywhere" class="nav-item-mobile black-text center">Download</a></li>
+        <li class="sidenav-mobile"><a href="#share" class="nav-item-mobile black-text center">For Business</a></li>
+        <li class="sidenav-mobile"><a href="#started" class="nav-item-mobile black-text center">Help</a></li>
         <li class="sidenav-mobile-button"><a href="#!" class="waves-effect waves-light btn-large blue darken-1">Go to Google Drive</a></li>
     </ul>
     <!-- Section: Hero on mobile only -->
-    <section class="hero hide-on-med-and-up">
+    <section class="hero hide-on-med-and-up scrollspy" id="hero">
         <div class="center">
             <img class="hero-img" src="rsc/google-icon.png" alt="drive-logo">
             <h1 class="hero-title white-text">A safe place for all your files</h1>
@@ -75,8 +75,8 @@
             <i class="material-icons medium white-text hoverable">expand_more</i>
         </div>
     </section>
-    <!-- Section: Hero on tablets only -->
-    <section class="hero hide-on-small-only">
+    <!-- Section: Hero on tablets and desktop -->
+    <section class="hero hide-on-small-only scrollspy" id="hero">
         <div class="hero-container-tablet-desktop">
             <div class="container center">
                 <img class="hero-img" src="rsc/google-icon.png" alt="drive-logo">
@@ -108,7 +108,61 @@
             </div>
         </div>
     </section>
-    <!-- Section:  on tablets only -->
+    <!-- Section:  Store any file -->
+    <section class="store-any-file valign-wrapper scrollspy" id="store">
+        <div class="container">
+            <div class="row hide-on-med-and-up">
+                <div class="col s12 m6">
+                    <img class="responsive-img" src="rsc/store-file.PNG" alt="store-file">
+                </div>
+                <div class="col s12">
+                    <div class="store-info">
+                        <h3 class="black-text store-title">Store any file</h3>
+                        <p class="store-text">Keep photos, stories, designs, drawings, recordings, videos, and more. Your first 15 GB of storage are free with a Google Account.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row valign-wrapper hide-on-small-only">
+                <div class="col m6">
+                    <img class="responsive-img" src="rsc/store-file.PNG" alt="store-file">
+                </div>
+                <div class="col s12 m6">
+                    <div class="store-info">
+                        <h3 class="black-text store-title">Store any file</h3>
+                        <p class="store-text">Keep photos, stories, designs, drawings, recordings, videos, and more. Your first 15 GB of storage are free with a Google Account.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Parallax -->
+    <div class="image-section-1 hide-on-large-only"></div>
+    <div class="parallax-container hide-on-med-and-down">
+        <div class="parallax"><img class="responsive-img" src="rsc/parallax1.jpg"></div>
+    </div>
+    <!-- Section:  Stuff anywhere -->
+    <section class="stuff-anywhare scrollspy" id="anywhere">
+
+    </section>
+    <!-- Parallax -->
+    <div class="image-section-2 hide-on-large-only"></div>
+    <div class="parallax-container hide-on-med-and-down">
+        <div class="parallax"><img class="responsive-img" src="rsc/parallax2.jpg"></div>
+    </div>
+    <!-- Section:  Share files -->
+    <section class="share-files scrollspy" id="share">
+
+    </section>
+    <!-- Parallax -->
+    <div class="image-section-3 hide-on-large-only"></div>
+    <div class="parallax-container hide-on-med-and-down">
+        <div class="parallax"><img class="responsive-img" src="rsc/parallax3.jpg"></div>
+    </div>
+    <!-- Section:  Get started -->
+    <section class="get-started scrollspy" id="started">
+
+    </section>
+
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script>
@@ -116,7 +170,14 @@
             //Navigation Bar
             var elems = document.querySelectorAll('.sidenav');
             var instances = M.Sidenav.init(elems);
+            
+            //Parallax effect
+            var elems = document.querySelectorAll('.parallax');
+            var instances = M.Parallax.init(elems);
 
+            //Scrollspy
+            const ss = document.querySelectorAll('.scrollspy');
+            M.ScrollSpy.init(ss);
         });
      </script>
 </body>

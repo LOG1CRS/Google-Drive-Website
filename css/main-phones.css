@@ -58,3 +58,71 @@
     height: 53px;
 }
 
+/* ----- image sections ----- */
+
+.image-section-1{
+    width: 100%;
+    height: 40vh;
+    background-image: url('../rsc/parallax1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image-section-2{
+    width: 100%;
+    height: 40vh;
+    background-image: url('../rsc/parallax2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image-section-3{
+    width: 100%;
+    height: 40vh;
+    background-image: url('../rsc/parallax3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ----- Store any file ----- */
+
+.store-any-file{
+    width: 100%;
+    height: 60vh;
+}
+
+.store-info{
+    text-align: center;
+}
+
+.store-title{
+    font-weight: 200;
+}
+
+.store-text{
+    font-size: 15px;
+}
+
+/* ----- Stuff anywhere ----- */
+
+.stuff-anywhare{
+    width: 100%;
+    height: 60vh;
+}
+
+/* ----- Share files ----- */
+
+.share-files{
+    width: 100%;
+    height: 60vh;
+}
+
+/* ----- Get started ----- */
+
+.get-started{
+    width: 100%;
+    height: 60vh;
+}
