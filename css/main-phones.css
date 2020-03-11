@@ -132,9 +132,32 @@
     height: 60vh;
 }
 
+.share-title{
+    font-weight: 200;
+}
+
+.share-text{
+    font-size: 15px;
+}
+
+
 /* ----- Get started ----- */
 
 .get-started{
     width: 100%;
     height: 60vh;
 }
+
+.started-title{
+    font-weight: 200;
+    margin-bottom: 40px;
+}
+
+.btn-started{
+    margin-bottom: 20px;
+}
+
+.started-text{
+    font-size: 15px;
+}
+
