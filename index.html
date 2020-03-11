@@ -10,7 +10,7 @@
     <script src="https://kit.fontawesome.com/179bec29ec.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="rsc/google-icon.png" type="image/png">
     <link rel="stylesheet" href="css/main-phones.css">
-    <link rel="stylesheet" href="css/main-tablets.css" media="screen and (min-width:680px)">
+    <link rel="stylesheet" href="css/main-tablets.css" media="screen and (min-width:600px)">
     <link rel="stylesheet" href="css/main-desktops.css" media="screen and (min-width:992px)">
     <title>Google Drive: Cloud Storage</title>
 </head>
@@ -19,14 +19,14 @@
     <div class="navbar-fixed">
         <nav class="white">
             <div class="nav-wrapper">
-                <a href="#!" class="brand-logo black-text"><strong class="google-icon"><span class="blue-text">G</span><span class="red-text">o</span><span class="yellow-text">o</span><span class="blue-text">g</span><span class="green-text">l</span><span class="red-text">e</span></strong> Drive</a>
-                <a href="#" class="sidenav-trigger" data-target="mobile-demo"><i class="material-icons black-text">menu</i></a>
+                <a href="#hero" class="brand-logo black-text"><strong><span class="blue-text">G</span><span class="red-text">o</span><span class="yellow-text">o</span><span class="blue-text">g</span><span class="green-text">l</span><span class="red-text">e</span></strong> Drive</a>
+                <a href="#hero" class="sidenav-trigger" data-target="mobile-demo"><i class="material-icons black-text">menu</i></a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="#meet" class="black-text nav-item"><strong>Meet Drive</strong></a></li>
-                    <li><a href="#using" class="black-text nav-item">Using Drive</a></li>
-                    <li><a href="#download" class="black-text nav-item">Download</a></li>
-                    <li><a href="#business" class="black-text nav-item">For Business</a></li>
-                    <li><a href="#help" class="black-text nav-item">Help</a></li>
+                    <li><a href="#hero" class="black-text nav-item">Meet Drive</a></li>
+                    <li><a href="#store" class="black-text nav-item">Using Drive</a></li>
+                    <li><a href="#anywhere" class="black-text nav-item">Download</a></li>
+                    <li><a href="#share" class="black-text nav-item">For Business</a></li>
+                    <li><a href="#started" class="black-text nav-item">Help</a></li>
                     <li><a href="#!" class="nav-item-btn waves-effect waves-light blue darken-1 left">Go to Google Drive</a></li>
                 </ul>
             </div>
@@ -34,23 +34,181 @@
     </div>
     <ul class="sidenav" id="mobile-demo">
         <div class="center">
-            <img src="rsc/google-icon.png" alt="google-logo" class="responsive-img sidenav-img">
+            <img href="#hero" src="rsc/google-icon.png" alt="google-logo" class="responsive-img sidenav-img">
         </div>
-        <li class="sidenav-mobile"><a href="#meet" class="nav-item-mobile black-text center"><strong>Meet Drive</strong></a></li>
-        <li class="sidenav-mobile"><a href="#using" class="nav-item-mobile black-text center">Using Drive</a></li>
-        <li class="sidenav-mobile"><a href="#download" class="nav-item-mobile black-text center">Download</a></li>
-        <li class="sidenav-mobile"><a href="#business" class="nav-item-mobile black-text center">For Business</a></li>
-        <li class="sidenav-mobile"><a href="#help" class="nav-item-mobile black-text center">Help</a></li>
+        <li class="sidenav-mobile"><a href="#hero" class="nav-item-mobile black-text center"><strong>Meet Drive</strong></a></li>
+        <li class="sidenav-mobile"><a href="#store" class="nav-item-mobile black-text center">Using Drive</a></li>
+        <li class="sidenav-mobile"><a href="#anywhere" class="nav-item-mobile black-text center">Download</a></li>
+        <li class="sidenav-mobile"><a href="#share" class="nav-item-mobile black-text center">For Business</a></li>
+        <li class="sidenav-mobile"><a href="#started" class="nav-item-mobile black-text center">Help</a></li>
         <li class="sidenav-mobile-button"><a href="#!" class="waves-effect waves-light btn-large blue darken-1">Go to Google Drive</a></li>
     </ul>
-    <!-- Section: Hero -->
-    <div class="slider fullscreen">
-        <ul class="slides">
-            <li>
-                <img src="rsc/hero-wallapaper2.jpg" alt="hero">
-            </li>
-        </ul>
+    <!-- Section: Hero on mobile only -->
+    <section class="hero hide-on-med-and-up scrollspy" id="hero">
+        <div class="center">
+            <img class="hero-img" src="rsc/google-icon.png" alt="drive-logo">
+            <h1 class="hero-title white-text">A safe place for all your files</h1>
+            <div class="row">
+                <div class="col s12">
+                    <div class="card small">
+                        <div class="card-content black-text center">
+                            <span class="card-title card-title-hero">Personal</span>
+                            <p class="black-text card-content-hero">Store, share, and access your files from any device. Your first 15 GB of storage are free.</p>
+                        </div>
+                        <div class="card-action center">
+                            <a href="#" class="waves-effect waves-light btn-large btn-hero blue darken-1">Go to Google Drive</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12">
+                    <div class="card small">
+                        <div class="card-content black-text center">
+                            <span class="card-title card-title-hero">Business</span>
+                            <p class="black-text card-content-hero">With Drive Enterprise, businesses only pay for the storage employees use. It comes with Google Docs, Sheets, and Slides — and works seamlessly with Microsoft Office.</p>
+                        </div>
+                        <div class="card-action center">
+                            <a href="#" class="waves-effect waves-light btn-large btn-hero blue darken-1">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <i class="material-icons medium white-text hoverable">expand_more</i>
+        </div>
+    </section>
+    <!-- Section: Hero on tablets and desktop -->
+    <section class="hero hide-on-small-only scrollspy" id="hero">
+        <div class="hero-container-tablet-desktop">
+            <div class="container center">
+                <img class="hero-img" src="rsc/google-icon.png" alt="drive-logo">
+                <h1 class="hero-title white-text">A safe place for all your files</h1>
+            </div>
+            <div class="row">
+                <div class="col m6">
+                    <div class="card small">
+                        <div class="card-content black-text center">
+                            <span class="card-title card-title-hero">Personal</span>
+                            <p class="black-text card-content-hero">Store, share, and access your files from any device. Your first 15 GB of storage are free.</p>
+                        </div>
+                        <div class="card-action center">
+                            <a href="#" class="waves-effect waves-light btn-large btn-hero blue darken-1">Go to Google Drive</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col m6">
+                    <div class="card small">
+                        <div class="card-content black-text center">
+                            <span class="card-title card-title-hero">Business</span>
+                            <p class="black-text card-content-hero">With Drive Enterprise, businesses only pay for the storage employees use. It comes with Google Docs, Sheets, and Slides — and works seamlessly with Microsoft Office.</p>
+                        </div>
+                        <div class="card-action center">
+                            <a href="#" class="waves-effect waves-light btn-large btn-hero blue darken-1">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section:  Store any file -->
+    <section class="store-any-file valign-wrapper scrollspy" id="store">
+        <div class="container">
+            <div class="row hide-on-med-and-up">
+                <div class="col s12">
+                    <img class="responsive-img" src="rsc/store-file.PNG" alt="store-file">
+                </div>
+                <div class="col s12">
+                    <div class="store-info">
+                        <h3 class="black-text store-title">Store any file</h3>
+                        <p class="store-text">Keep photos, stories, designs, drawings, recordings, videos, and more. Your first 15 GB of storage are free with a Google Account.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row valign-wrapper hide-on-small-only">
+                <div class="col m6">
+                    <img class="responsive-img" src="rsc/store-file.PNG" alt="store-file">
+                </div>
+                <div class="col s12 m6">
+                    <div class="store-info">
+                        <h3 class="black-text store-title">Store any file</h3>
+                        <p class="store-text">Keep photos, stories, designs, drawings, recordings, videos, and more. Your first 15 GB of storage are free with a Google Account.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Parallax -->
+    <div class="image-section-1 hide-on-large-only"></div>
+    <div class="parallax-container hide-on-med-and-down">
+        <div class="parallax"><img class="responsive-img" src="rsc/parallax1.jpg"></div>
     </div>
+    <!-- Section:  Stuff anywhere -->
+    <section class="stuff-anywhare valign-wrapper scrollspy" id="anywhere">
+        <div class="container hide-on-med-and-up">
+            <div class="row">
+                <div class="col s12">
+                    <img class="responsive-img" src="rsc/files-anywhere.jpg" alt="files-anywhere">
+                </div>
+                <div class="col 12">
+                    <div class="stuff-info">
+                        <h3 class="black-text stuff-title">See your stuff anywhere</h3>
+                        <p class="stuff-text">Your files in Drive can be reached from any smartphone, tablet, or computer. So wherever you go, your files follow.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row valign-wrapper hide-on-small-only">
+            <div class="col m6">
+                <div class="stuff-info">
+                    <div class="container">
+                        <h3 class="black-text stuff-title">See your stuff anywhere</h3>
+                        <p class="stuff-text">Your files in Drive can be reached from any smartphone, tablet, or computer. So wherever you go, your files follow.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col m6 right-align">
+                <img class="responsive-img" src="rsc/files-anywhere.jpg" alt="files-anywhere">
+            </div>
+        </div>
+    </section>
+    <!-- Parallax -->
+    <div class="image-section-2 hide-on-large-only"></div>
+    <div class="parallax-container hide-on-med-and-down">
+        <div class="parallax"><img class="responsive-img" src="rsc/parallax2.jpg"></div>
+    </div>
+    <!-- Section:  Share files -->
+    <section class="share-files valign-wrapper scrollspy" id="share">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 center">
+                    <img src="rsc/share.jpg" alt="share-files" class="responsive-img">
+                </div>
+                <div class="col s12 center">
+                    <div class="container">
+                        <h3 class="black-text share-title">Share files and folders</h3>
+                        <p class="share-text">You can quickly invite others to view, download, and collaborate on all the files you want–no email attachment needed.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Parallax -->
+    <div class="image-section-3 hide-on-large-only"></div>
+    <div class="parallax-container hide-on-med-and-down">
+        <div class="parallax"><img class="responsive-img" src="rsc/parallax3.jpg"></div>
+    </div>
+    <!-- Section:  Get started -->
+    <section class="get-started valign-wrapper scrollspy" id="started">
+        <div class="container center">
+            <div class="row">
+                <img src="rsc/google-icon.png" alt="logo-google" class="hero-img">
+                <h3 class="started-title">Get started with Drive for free</h3>
+                <a href="#" class="waves-effect waves-light btn-large btn-started blue darken-1">Go to Google Drive</a>
+            </div>
+            <div class="row">
+                <a href="#" class="started-text">Need more than 15 GB? Upgrade to Google One</a>
+            </div>
+        </div>
+    </section>
+
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script>
@@ -58,12 +216,14 @@
             //Navigation Bar
             var elems = document.querySelectorAll('.sidenav');
             var instances = M.Sidenav.init(elems);
+            
+            //Parallax effect
+            var elems = document.querySelectorAll('.parallax');
+            var instances = M.Parallax.init(elems);
 
-            //Slider Hero
-            var elems = document.querySelectorAll('.slider');
-            var instances = M.Slider.init(elems, {
-                indicators: false
-            });
+            //Scrollspy
+            const ss = document.querySelectorAll('.scrollspy');
+            M.ScrollSpy.init(ss);
         });
      </script>
 </body>

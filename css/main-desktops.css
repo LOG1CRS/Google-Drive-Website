@@ -13,3 +13,94 @@
 }
 
 /* ----- Hero ----- */
+
+.hero-container-tablet-desktop{
+    height: 60vh;
+}
+
+.hero-img{
+    width: 95px !important;
+    margin-top: 0px;
+}
+
+.card{
+    max-width: 500px;
+}
+
+.hero-title{
+    font-size: 61px;
+    font-weight: 200;
+    margin-top: 10px;
+}
+
+.card-title-hero{
+    font-size: 35px !important;
+    
+}
+
+.card-content{
+    font-size: 18px;
+}
+
+/* ----- Parallax----- */
+
+.parallax-container{
+    width: 100%;
+    height: 50vh;
+}
+
+/* ----- Store any file ----- */
+
+.store-any-file{
+    width: 100%;
+    height: 70vh;
+}
+
+.store-info{
+    text-align: left;
+}
+
+.store-title{
+    font-size: 50px;
+}
+
+.store-text{
+    font-size: 25px;
+}
+
+/* ----- Stuff anywhere ----- */
+
+.stuff-anywhare{
+    width: 100%;
+    height: 70vh;
+}
+
+.stuff-title{
+    font-size: 50px;
+}
+
+.stuff-text{
+    font-size: 25px;
+}
+
+/* ----- Share files ----- */
+
+.share-files{
+    width: 100%;
+    height: 70vh;
+}
+
+.share-title{
+    font-size: 50px;
+}
+
+.share-text{
+    font-size: 25px;
+}
+
+/* ----- Get started ----- */
+
+.get-started{
+    width: 100%;
+    height: 70vh;
+}
