@@ -64,6 +64,10 @@
 }
 
 /* ----- Footer ----- */
+.footer{
+    width: 100%;
+    height: 340px;
+}
 
 .footer-title{
     font-size: 25px;
