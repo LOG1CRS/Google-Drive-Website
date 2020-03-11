@@ -13,6 +13,7 @@
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .hero-container-tablet-desktop{
