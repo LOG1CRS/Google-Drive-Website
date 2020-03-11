@@ -113,6 +113,18 @@
     height: 60vh;
 }
 
+.stuff-info{
+    text-align: center;
+}
+
+.stuff-title{
+    font-weight: 200;
+}
+
+.stuff-text{
+    font-size: 15px;
+}
+
 /* ----- Share files ----- */
 
 .share-files{

@@ -75,6 +75,14 @@
     height: 70vh;
 }
 
+.stuff-title{
+    font-size: 50px;
+}
+
+.stuff-text{
+    font-size: 25px;
+}
+
 /* ----- Share files ----- */
 
 .share-files{
