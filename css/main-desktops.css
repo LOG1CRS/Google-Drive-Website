@@ -13,3 +13,31 @@
 }
 
 /* ----- Hero ----- */
+
+.hero-container-tablet-desktop{
+    height: 60vh;
+}
+
+.hero-img{
+    width: 95px !important;
+    margin-top: 0px;
+}
+
+.card{
+    max-width: 500px;
+}
+
+.hero-title{
+    font-size: 61px;
+    font-weight: 200;
+    margin-top: 10px;
+}
+
+.card-title-hero{
+    font-size: 35px !important;
+    
+}
+
+.card-content{
+    font-size: 18px;
+}

@@ -10,7 +10,7 @@
     <script src="https://kit.fontawesome.com/179bec29ec.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="rsc/google-icon.png" type="image/png">
     <link rel="stylesheet" href="css/main-phones.css">
-    <link rel="stylesheet" href="css/main-tablets.css" media="screen and (min-width:680px)">
+    <link rel="stylesheet" href="css/main-tablets.css" media="screen and (min-width:600px)">
     <link rel="stylesheet" href="css/main-desktops.css" media="screen and (min-width:992px)">
     <title>Google Drive: Cloud Storage</title>
 </head>
@@ -43,14 +43,71 @@
         <li class="sidenav-mobile"><a href="#help" class="nav-item-mobile black-text center">Help</a></li>
         <li class="sidenav-mobile-button"><a href="#!" class="waves-effect waves-light btn-large blue darken-1">Go to Google Drive</a></li>
     </ul>
-    <!-- Section: Hero -->
-    <div class="slider fullscreen">
-        <ul class="slides">
-            <li>
-                <img src="rsc/hero-wallapaper2.jpg" alt="hero">
-            </li>
-        </ul>
-    </div>
+    <!-- Section: Hero on mobile only -->
+    <section class="hero hide-on-med-and-up">
+        <div class="center">
+            <img class="hero-img" src="rsc/google-icon.png" alt="drive-logo">
+            <h1 class="hero-title white-text">A safe place for all your files</h1>
+            <div class="row">
+                <div class="col s12">
+                    <div class="card small">
+                        <div class="card-content black-text center">
+                            <span class="card-title card-title-hero">Personal</span>
+                            <p class="black-text card-content-hero">Store, share, and access your files from any device. Your first 15 GB of storage are free.</p>
+                        </div>
+                        <div class="card-action center">
+                            <a href="#" class="waves-effect waves-light btn-large blue darken-1">Go to Google Drive</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12">
+                    <div class="card small">
+                        <div class="card-content black-text center">
+                            <span class="card-title card-title-hero">Business</span>
+                            <p class="black-text card-content-hero">With Drive Enterprise, businesses only pay for the storage employees use. It comes with Google Docs, Sheets, and Slides — and works seamlessly with Microsoft Office.</p>
+                        </div>
+                        <div class="card-action center">
+                            <a href="#" class="waves-effect waves-light btn-large blue darken-1">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <i class="material-icons medium white-text hoverable">expand_more</i>
+        </div>
+    </section>
+    <!-- Section: Hero on tablets only -->
+    <section class="hero hide-on-small-only">
+        <div class="hero-container-tablet-desktop">
+            <div class="container center">
+                <img class="hero-img" src="rsc/google-icon.png" alt="drive-logo">
+                <h1 class="hero-title white-text">A safe place for all your files</h1>
+            </div>
+            <div class="row">
+                <div class="col m6">
+                    <div class="card small">
+                        <div class="card-content black-text center">
+                            <span class="card-title card-title-hero">Personal</span>
+                            <p class="black-text card-content-hero">Store, share, and access your files from any device. Your first 15 GB of storage are free.</p>
+                        </div>
+                        <div class="card-action center">
+                            <a href="#" class="waves-effect waves-light btn-large blue darken-1">Go to Google Drive</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col m6">
+                    <div class="card small">
+                        <div class="card-content black-text center">
+                            <span class="card-title card-title-hero">Business</span>
+                            <p class="black-text card-content-hero">With Drive Enterprise, businesses only pay for the storage employees use. It comes with Google Docs, Sheets, and Slides — and works seamlessly with Microsoft Office.</p>
+                        </div>
+                        <div class="card-action center">
+                            <a href="#" class="waves-effect waves-light btn-large blue darken-1">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script>
@@ -59,11 +116,6 @@
             var elems = document.querySelectorAll('.sidenav');
             var instances = M.Sidenav.init(elems);
 
-            //Slider Hero
-            var elems = document.querySelectorAll('.slider');
-            var instances = M.Slider.init(elems, {
-                indicators: false
-            });
         });
      </script>
 </body>

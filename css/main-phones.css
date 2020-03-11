@@ -17,4 +17,39 @@
     background-color: rgba(202, 202, 202, 0.096);
 }
 
+.brand-logo{
+    font-size: 25px !important;
+}
+
 /* ----- Hero ----- */
+.hero{
+    width: 100%;
+    height: 1028px;
+    background-image: url('../rsc/hero-wallapaper2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-img{
+    width: 70px !important;
+    margin-top: 55px;
+}
+
+.hero-title{
+    font-size: 45px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.card-title-hero{
+    font-size: 30px !important;
+    margin-top: 5px !important;
+    margin-bottom: 30px !important;
+}
+
+.card-content{
+    font-size: 16px;
+}
+
